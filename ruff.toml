@@ -1,0 +1,11 @@
+line-length=120
+
+[lint]
+select = ["I", "B", "E", "F", "C", "W"]
+ignore = ["D103", "D203", "E203", "E712", "E302", "W605"]
+exclude = [
+    "__pycache__",
+]
+mccabe = { max-complexity = 16 }
+
+[format]
